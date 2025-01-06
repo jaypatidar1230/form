@@ -1,6 +1,5 @@
-import { Controller } from "react-hook-form";
+import { Controller } from 'react-hook-form';
 
 export function Autocomplete() {
-  return <Controller render={(params) => <Autocomplete />} />
-  
+  return <Controller render={(params) => <Autocomplete />} />;
 }

@@ -23,8 +23,12 @@ export function Users() {
           error={!!errors.name}
           helperText={errors.name?.message}
         />
-        <TextField {...register('email')} label="Email" error={!!errors.email}
-          helperText={errors.email?.message}/>
+        <TextField
+          {...register('email')}
+          label="Email"
+          error={!!errors.email}
+          helperText={errors.email?.message}
+        />
       </Stack>
     </div>
   );
